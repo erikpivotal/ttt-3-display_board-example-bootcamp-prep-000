@@ -2,5 +2,5 @@
 def display_board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
-  board = row + "\n" + 
+  board = row + "\n" + "-----------"
 end
