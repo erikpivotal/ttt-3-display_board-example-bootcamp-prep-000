@@ -2,7 +2,7 @@
 def display_board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
-  divider = "\n" + "-----------"
+  divider = "\n" + "-----------" + "\n"
   board = row + divider + row + divider + row
   puts board
 end
