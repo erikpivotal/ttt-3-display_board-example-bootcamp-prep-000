@@ -3,4 +3,5 @@ def display_board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
   board = row + "\n" + "-----------" + row
+  puts board
 end
